@@ -1,1 +1,6 @@
 2020-04-10 11:46:44,766 INFO com.ms.bugzilla.service.ApplicationServiceImpl [http-nio-8080-exec-7] returing applications from list applications
+2020-04-10 20:21:18,113 INFO com.ms.bugzilla.BugzillaApplication [restartedMain] Starting BugzillaApplication on dell-PC with PID 7520 (E:\MSTechStack\eclipseWorkspace\bugzilla\bin\main started by dell in E:\MSTechStack\eclipseWorkspace\bugzilla)
+2020-04-10 20:21:18,115 DEBUG com.ms.bugzilla.BugzillaApplication [restartedMain] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-10 20:21:18,116 INFO com.ms.bugzilla.BugzillaApplication [restartedMain] The following profiles are active: aws_ebs
+2020-04-10 20:21:54,873 DEBUG com.ms.bugzilla.jwt.JwtTokenAuthorizationOncePerRequestFilter [restartedMain] Filter 'jwtTokenAuthorizationOncePerRequestFilter' configured for use
+2020-04-10 20:21:59,185 INFO com.ms.bugzilla.BugzillaApplication [restartedMain] Started BugzillaApplication in 43.568 seconds (JVM running for 46.971)
