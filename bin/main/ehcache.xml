@@ -1,0 +1,53 @@
+<!-- <config xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+        xmlns='http://www.ehcache.org/v3'
+        xsi:schemaLocation="http://www.ehcache.org/v3
+            http://www.ehcache.org/schema/ehcache-core-3.7.xsd">
+
+    Persistent cache directory
+   
+    Cache configurations
+    <cache alias="areaOfCircleCache"
+    uses-template="default">
+    
+        <key-type>java.lang.Integer</key-type>
+        <value-type>java.lang.Double</value-type>
+        <expiry>
+			<ttl unit="seconds">30</ttl>
+    	</expiry>
+    </cache>
+
+    <cache alias="powCache" uses-template="default">
+        <key-type>java.util.ArrayList</key-type>
+        <value-type>java.lang.Double</value-type>
+    </cache>
+ 
+    <cache alias="multiplyCache" uses-template="default">
+        <key-type>java.lang.String</key-type>
+        <value-type>java.lang.Double</value-type>
+    </cache>
+
+    <cache alias="applicationCache" uses-template="default"> 
+        <key-type>java.lang.Long</key-type>
+        <value-type>com.ms.bugzilla.entity.Application</value-type>
+         <expiry>
+			<ttl unit="seconds">30</ttl>
+    	</expiry>
+    </cache>
+
+</config>
+ -->
+ 
+ 
+ 
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ehcache.org/ehcache.xsd">
+    <diskStore path="java.io.tmpdir"/>
+    <defaultCache eternal="true" overflowToDisk="true" diskPersistent="true"/>
+    <cache name="applicationCache" eternal="true" maxBytesLocalDisk="500m" maxBytesLocalHeap="100m" overflowToDisk="true" diskPersistent="true"/>
+    <!-- <cache name="edgeCache" eternal="true" maxBytesLocalDisk="500m" overflowToDisk="true" diskPersistent="true"/>
+    <cache name="socialGraphCache" eternal="true" maxBytesLocalDisk="500m" overflowToDisk="true" diskPersistent="true"/> -->
+    
+    
+</ehcache>
+
+

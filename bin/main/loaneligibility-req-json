@@ -1,0 +1,33 @@
+{
+      
+            "customerName":"Sam",
+            "age":"35",
+            "yearlyIncome":"500000",
+            "cibilScore":"500",
+            "employmentMode":"govt"
+            
+        
+   }
+   
+   {
+      
+            "customerName":"Sam",
+            "age":"35",
+            "yearlyIncome":"700000",
+            "cibilScore":"700",
+            "employmentMode":"govt"
+            
+        
+}
+
+
+{
+      
+            "customerName":"Sam",
+            "age":"25",
+            "yearlyIncome":"300000",
+            "cibilScore":"500",
+            "employmentMode":"govt"
+            
+        
+}
